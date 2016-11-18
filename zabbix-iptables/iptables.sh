@@ -1,4 +1,6 @@
 #!/bin/bash
+#iptables 监控脚本
+#2016/11-18
 function tcp {  
 sudo iptstate --single | grep tcp | wc -l
 }  
